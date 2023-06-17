@@ -1,5 +1,5 @@
 const express = require("express");
-const { QuizModel } = require("../model/quiz.model");
+const { QuizModel } = require("../model/Quiz.model");
 const quizRouter = express.Router();
 
 quizRouter.post("/create", async (req, res) => {
